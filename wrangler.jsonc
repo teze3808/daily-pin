@@ -1,1 +1,5 @@
-{"name":"daily-pin","compatibility_date":"2026-11-08","assets":{"directory":"./public"},"routes":[{"pattern":"daily-pin.teze3808.com","custom_domain":true}],"workers_dev":true,"preview_urls":false}
+{
+  "name": "daily-pin",
+  "compatibility_date": "2026-11-08",
+  "pages_build_output_dir": "./public"
+}
