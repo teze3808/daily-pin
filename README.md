@@ -1,6 +1,6 @@
 # Daily Four · 每日四位碼
 
-Version 1.0.2. Standalone public date-to-four-digit calculator. Intended hostname: https://daily-pin.teze3808.com/ . No classroom data, credentials, analytics or backend.
+Version 1.0.3. Standalone public date-to-four-digit calculator. Intended hostname: https://daily-pin.teze3808.com/ . No classroom data, credentials, analytics or backend.
 
 ## Algorithm
 Use the date YYYY-MM-DD in Asia/Hong_Kong. SHA-256 the UTF-8 string `daily-pin-v1|Asia/Hong_Kong|YYYY-MM-DD`. Interpret the first four digest bytes as an unsigned big-endian integer, modulo 10000, then zero-pad to four digits. Versioned algorithm; duplicate codes across dates are possible.
